@@ -1,4 +1,4 @@
-# -DS1302-RTC-interfacing-using-8051-Microcontroller
+# DS1302-RTC-interfacing-using-8051-Microcontroller
 
 This driver facilitates communication between an 8051 microcontroller and the DS1302 real-time clock (RTC) module. It enables reading and writing of data/time to the DS1302, display of time on a 16x2 LCD, and setting the time on the RTC via PC using Hercules software and a serial port.
 
