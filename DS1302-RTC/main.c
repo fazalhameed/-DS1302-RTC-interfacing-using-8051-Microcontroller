@@ -9,7 +9,6 @@
 #define  ADR_RD_TCR     0x91  //Trickle Charge Register Read
 #define  ADR_WR_BURST   0xBE  //Burst Write
 #define  ADR_RD_BURST   0xBF  //Burst Read
-
 #define  ADR_WR_SEC    0x80  //Seconds Write
 #define  ADR_RD_SEC    0x81  //Seconds Read
 #define  ADR_WR_MIN    0x82  //Mins Write
@@ -45,7 +44,6 @@ void Ext_int_Init()
 	EA  = 1;		/* Enable global interrupt */
 	ES = 1;  		/* Enable serial interrupt */			
 }
-
 void UART_Init()
 {
 	TMOD = 0x20;		/* Timer 1, 8-bit auto reload mode */
